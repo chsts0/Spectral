@@ -1,0 +1,595 @@
+html {
+	background: grey;
+}
+
+body {
+	font-family: 'Spectral', serif;
+	width: 1280px;
+	height: 6412px;
+	margin: 0 auto;
+	background: linear-gradient(rgba(255, 137, 137, .7), rgba(175, 255, 137, .7), rgba(175, 255, 137, .7), rgba(137, 234, 255, .7));
+
+
+}
+
+section {
+	overflow: hidden;
+	height: 6412px;
+}
+
+.newspaper {
+	background-image: url(../images/газета.svg);
+	display: flex;
+	flex-flow: column;
+	width: 1300px;
+	height: 1080px;
+	background-repeat: no-repeat;
+	rotate: -20deg;
+	margin-top: -70px;
+	margin-left: px;
+
+
+}
+
+.title {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	padding: 180px 100px 0 15px;
+	width: 90.5%;
+}
+
+.name {
+	font-size: 144px;
+	font-weight: bold;
+	align-items: center;
+	width: 60%;
+}
+
+.icon {
+	align-items: center;
+	width: 50px;
+}
+
+.data {
+	align-items: center;
+	rotate: 20deg;
+	padding-top: 13px;
+}
+
+
+.h1 {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 75px 100px 0 67px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+.text {
+	display: flex;
+	font-weight: bold;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 85%;
+	padding: 30px 67px 0 70px;
+}
+
+.ft_par {
+	font-size: 20.7px;
+	height: 300px;
+	width: 306px;
+	text-align: justify;
+	line-height: 28.6px;
+}
+
+.sec_par {
+	font-size: 22px;
+	height: 300px;
+	width: 320px;
+	text-align: justify;
+	line-height: 30.4px;
+	padding-left: 0px;
+	letter-spacing: -0.02em;
+}
+
+.trd_par {
+	font-size: 22px;
+	height: 300px;
+	width: 340px;
+	text-align: justify;
+	line-height: 30px;
+	padding-right: 20px;
+	letter-spacing: -0.02em;
+}
+
+
+.cup {
+	margin-top: -60px;
+	margin-left: 800px;
+}
+
+
+.music1 {
+	display: flex;
+	flex-flow: column;
+	background-image: url(../images/2пластинка.svg);
+	background-repeat: no-repeat;
+	width: 815px;
+	height: 860px;
+	rotate: 7.87deg;
+	margin-top: -140px;
+	margin-left: -50px;
+}
+
+.logo_album {
+	margin-top: 215px;
+	margin-left: 137px;
+}
+
+.no_italic {
+	font-size: 47px;
+	font-weight: 800;
+	margin-top: 9px;
+	margin-left: 133px;
+	height: 43px;
+}
+
+.autor_albom {
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 22px;
+	margin-top: 0px;
+	margin-left: 135px;
+}
+
+.tracks {
+	font-size: 29px;
+	line-height: 45px;
+	margin-left: 105px;
+	margin-top: 10px;
+}
+
+.music_2 {
+	display: flex;
+	flex-flow: column;
+	background-image: url(../images/плеер.svg);
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 675px;
+	margin-top: -725px;
+	margin-left: 812px;
+	rotate: -28.88deg;
+}
+
+.italic {
+	font-size: 20px;
+	font-weight: 800;
+	margin-top: 195px;
+	margin-left: 145px;
+}
+
+.autor_albom_2 {
+	font-size: 7.5px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-left: 145px;
+	line-height: 10px;
+}
+
+.tracks_2 {
+	font-size: 14.14px;
+	line-height: 19px;
+	margin-left: 145px;
+	margin-top: 5px;
+}
+
+
+.headphones {
+	margin-top: 70px;
+	margin-left: 60px;
+}
+
+
+.calc {
+
+	z-index: 1;
+	display: flex;
+	flex-flow: column;
+	background-image: url(../images/калькулятор.svg);
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 780px;
+	rotate: -14.77deg;
+	margin-top: -932px;
+	margin-left: -35px;
+}
+
+.result {
+	font-size: 46.77px;
+	margin-left: 190px;
+	margin-top: 210px;
+	color: white;
+}
+
+.btn {
+	color: white;
+	font-size: 40px;
+}
+
+.cl1 {
+	margin-top: 100px;
+	margin-left: 58px;
+	font-size: 28px;
+}
+
+.cl2 {
+	margin-top: -28px;
+	margin-left: 175px;
+	font-size: 30px;
+}
+
+.cl3 {
+	margin-top: -30px;
+	margin-left: 284px;
+	font-size: 30px;
+}
+
+.cl4 {
+	margin-top: -47px;
+	margin-left: 404px;
+	font-size: 55px;
+}
+
+.cl5 {
+	margin-top: -54px;
+	margin-left: 513px;
+	font-size: 57px;
+}
+
+.cl6 {
+	margin-top: 35px;
+	margin-left: 76px;
+}
+
+.cl7 {
+	margin-top: -42px;
+	margin-left: 192px;
+}
+
+.cl8 {
+	margin-top: -41px;
+	margin-left: 300px;
+}
+
+.cl9 {
+	margin-top: -40px;
+	margin-left: 409px;
+}
+
+.cl10 {
+	margin-top: -52px;
+	margin-left: 513px;
+	font-size: 57px;
+}
+
+.cl11 {
+	margin-top: 38px;
+	margin-left: 78px;
+}
+
+.cl12 {
+	margin-top: -45px;
+	margin-left: 189px;
+}
+
+.cl13 {
+	margin-top: -39px;
+	margin-left: 300px;
+}
+
+.cl14 {
+	margin-top: -40px;
+	margin-left: 408px;
+}
+
+.cl15 {
+	margin-top: -53px;
+	margin-left: 513px;
+	font-size: 57px;
+}
+
+.cl16 {
+	margin-top: 40px;
+	margin-left: 60px;
+	font-size: 25px;
+}
+
+.cl17 {
+	margin-top: -32px;
+	margin-left: 190px;
+}
+
+.cl18 {
+	margin-top: -40px;
+	margin-left: 299px;
+}
+
+.cl19 {
+	margin-top: -40px;
+	margin-left: 409px;
+}
+
+.cl20 {
+	margin-top: 39px;
+	margin-left: 67px;
+	font-size: 36px;
+}
+
+.cl21 {
+	margin-top: -36px;
+	margin-left: 191px;
+}
+
+.cl22 {
+	margin-top: -55px;
+	margin-left: 304px;
+	font-size: 55px;
+}
+
+.cl23 {
+	margin-top: -52px;
+	margin-left: 404px;
+	font-size: 57px;
+}
+
+.cl24 {
+	margin-top: -97px;
+	margin-left: 512px;
+	font-size: 57px;
+}
+
+.pic1 {
+	position: absolute;
+	z-index: 0;
+	rotate: 7.14deg;
+	margin-top: 156px;
+	margin-left: 523px;
+}
+
+.pic2 {
+	z-index: 1;
+	display: flex;
+	flex-flow: column;
+	background-image: url(../images/бумага2.svg);
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 680px;
+	rotate: 14.32deg;
+	margin-top: 300px;
+	margin-left: 584px;
+}
+
+.pic_text {
+	font-size: 26px;
+	font-weight: 300;
+	height: 300px;
+	width: 573px;
+	text-align: justify;
+	padding-left: 49px;
+	padding-top: 49px;
+}
+
+.pen {
+	padding-left: 275px;
+	padding-top: 55px;
+	position: absolute;
+	z-index: 1;
+	rotate: -3.22deg;
+}
+
+.pad {
+	background-image: url(../images/планшет.svg);
+	display: flex;
+	flex-flow: column;
+	width: 925px;
+	height: 1370px;
+	background-repeat: no-repeat;
+	rotate: -9deg;
+	margin-top: 310px;
+	margin-left: 450px;
+}
+
+.ru_mlt1 {
+	display: flex;
+	flex-flow: row;
+	font-size: 22px;
+	padding-top: 259px;
+}
+
+.ru1 {
+	padding-left: 210px;
+}
+
+.mlt1 {
+	padding-left: 193px;
+}
+
+.hello {
+	font-size: 22px;
+	font-weight: 600;
+	display: flex;
+	flex-flow: row;
+	line-height: 30px;
+	padding-top: 33px;
+}
+
+.hello_ru {
+	padding-left: 115px;
+}
+
+.hello_mlt {
+	padding-left: 73px;
+	letter-spacing: -0.03em;
+}
+
+.ru_mlt2 {
+	display: flex;
+	flex-flow: row;
+	font-size: 22px;
+	padding-top: 145px;
+}
+
+.ru2 {
+	color: #4A4A4A;
+	padding-left: 210px;
+}
+
+.mlt2 {
+	padding-left: 192px;
+}
+
+.lngs {
+	font-size: 13.47px;
+	font-weight: 600;
+	padding-top: 95px;
+	padding-left: 135px;
+	width: 624.72px;
+	line-height: 19px;
+	text-align: justify;
+}
+
+.book {
+	rotate: 4.82deg;
+	margin-top: -1650px;
+	margin-left: -375px;
+}
+
+.phone {
+	background-image: url(../images/телефон.svg);
+	display: flex;
+	flex-flow: column;
+	width: 485px;
+	height: 885px;
+	background-repeat: no-repeat;
+	rotate: -9.11deg;
+	margin-top: 135px;
+	margin-left: 9px;
+}
+
+.up_text {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	padding-left: 58px;
+	padding-top: 133px;
+	width: 344px;
+}
+
+.nav {
+	display: flex;
+	flex-flow: row;
+	font-size: 16.26px;
+	font-weight: 600;
+	padding-top: 462px;
+	color: white;
+}
+
+.vid {
+	padding-left: 138px;
+
+}
+
+.photo {
+	padding-left: 21px;
+}
+
+.portret {
+	padding-left: 23px;
+}
+
+.cat_1 {
+	margin-top: -327px;
+	margin-left: 600px;
+	rotate: -41.8deg;
+}
+
+.cat_2 {
+	rotate: 19.72deg;
+	margin-top: -560px;
+	margin-left: 960px;
+}
+
+.cat_3 {
+	rotate: 10.89deg;
+	margin-top: -780px;
+	margin-left: 950px;
+}
+
+.lemon {
+	background-image: url(../images/лимон.svg);
+	display: flex;
+	flex-flow: column;
+	width: 460px;
+	height: 570px;
+	background-repeat: no-repeat;
+	rotate: 4deg;
+	margin-top: -506px;
+	margin-left: 616px;
+}
+
+.lemon_text {
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 32px;
+	padding-left: 70px;
+	padding-top: 463px;
+	width: 344px;
+}
+
+.tag {
+	background-image: url(../images/бирка.svg);
+	display: flex;
+	flex-flow: column;
+	width: 970px;
+	height: 310px;
+	background-repeat: no-repeat;
+	rotate: 22.29deg;
+	margin-top: 370px;
+	margin-left: -85px;
+}
+
+.the_end {
+	font-size: 111px;
+	font-weight: bold;
+	padding-top: 45px;
+	padding-left: 423px;
+}
+
+.tag_text {
+	display: flex;
+	flex-flow: row;
+	font-size: 38px;
+	font-weight: 400;
+	padding-top: 50px;
+}
+
+.end1 {
+	padding-left: 425px;
+}
+
+.end2 {
+	padding-left: 62px;
+}
+
+.end3 {
+	padding-left: 62px;
+}
